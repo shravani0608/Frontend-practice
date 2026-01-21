@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* ================= LEFT SECTION ================= */
+
+.left {
+    width: 50%;
+    background: linear-gradient(135deg, #6F00FF, #7947BB);
+    color: white;
+    padding: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* LOGO */
+.logo {
+    background: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.logo img {
+    top: 69px;
+    left: 120px;
+    height: 27px;
+    width: auto;
+    display: block;
+}
+
+/* USER ICON */
+.user-icon {
+    position: absolute;
+    top: 115px;
+    left: 70px;
+    width: 26px;
+    z-index: 6;
+}
+
+/* TEXT */
+.left-text {
+    max-width: 420px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 10;
+    gap: 20px;
+    padding: 10px;
+}
+
+.left-text h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.left-text p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ILLUSTRATIONS */
+
+/* Character left */
+.img-top-left {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    width: 170px;
+    z-index: 3;
+}
+
+/* Character right (ABOVE TEXT) */
+.img-top-right {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    width: 170px;
+    height: 170px;
+    z-index: 4;
+}
+
+/* Message cards */
+.img-bottom-msg {
+    position: absolute;
+    left: 30px;
+    width: 400px;
+    bottom: 1px;
+    z-index: 1;
+}
+
+/* PHP / JS cube */
+.img-bottom-php {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    height: 250px;
+    width: 250px;
+    z-index: 2;
+}
+
+/* ================= RIGHT SECTION ================= */
+
+.right {
+    width: 50%;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    width: 360px;
+    padding: 30px;
+    border-radius: 14px;
+    /* Updated shadow for a subtle, uniform glow */
+    box-shadow: 0px 0px 5px 0px #00000040;
+    background-color: #ffffff; /* Added a background so the shadow is visible */
+}
+
+.login-box h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.small-text {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 18px;
+}
+
+.role-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.role-buttons button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid #7a1cff;
+    background: white;
+    color: #7a1cff;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.role-buttons .active {
+    background: #7a1cff;
+    color: white;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.forgot {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #7a1cff;
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background: #9b5cff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.register a {
+    color: #7a1cff;
+    text-decoration: none;
+}
+.auth-nav {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  font-size: 14px;
+}
+
+.auth-nav a {
+  color: #7b2cbf;
+  font-weight: bold;
+  text-decoration: underline; 
+}
